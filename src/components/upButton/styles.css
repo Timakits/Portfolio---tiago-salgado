@@ -1,0 +1,24 @@
+#upButton{
+    position: fixed;
+    color: white;
+    bottom: 40px;
+    right: 40px;
+    font-size: 200%;
+    background-color: #232325;
+    border-radius: 5px;
+    height: 5%;
+    width: 2%;
+    text-align: center;
+}
+.fa-caret-up{
+    color: white;
+    transition: all 1s;
+}
+.fa-caret-up:hover{
+    transform: translateY(-5px);
+}
+.hidden{
+    display: none;
+}
+
+

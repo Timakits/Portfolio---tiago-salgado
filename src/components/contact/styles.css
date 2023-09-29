@@ -1,0 +1,11 @@
+.list-group-bg{
+    background-color: #09090A ;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+.ul{
+    padding: 0;
+}

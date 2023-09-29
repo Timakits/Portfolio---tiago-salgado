@@ -1,0 +1,27 @@
+.card{
+    margin: 5%;
+    background-color: #232325;
+    color: white;
+    transition: all 1s;
+    opacity: 0.6;
+}
+.card:hover{
+transform: scale(1.1);
+opacity: 1;
+}
+.card1{
+    height: 82.2%;
+}
+.carText{
+    height: 40%;
+}
+
+.btn-dark{
+    margin: 2%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(1, 54, 54);
+}
+.iconsCard{
+    font-size: 200%;
+    text-align: center;
+}

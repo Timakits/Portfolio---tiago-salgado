@@ -1,0 +1,43 @@
+.navbar {
+  position: fixed;
+  background-color: #09090a88;
+  width: 100%;
+  color: white;
+  display: flex;
+  overflow: hidden;
+  transition: background 0.3s ease;
+  font-size: 110%;
+  z-index: 1000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.collapse {
+  color: white;
+}
+
+.nav-item {
+  font-size: 120%;
+  transition: all 0.5s;
+}
+.nav-item:hover {
+  transform: translateY(7px);
+}
+.navbar-brand {
+  font-size: 150%;
+  font-weight: 500;
+}
+.navbar-scroll {
+  background: rgb(30, 31, 46);
+  background: linear-gradient(
+    180deg,
+    rgba(30, 31, 46, 1) 0%,
+    rgba(9, 9, 10, 1) 41%
+  );
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+.navbar-toggler-icon {
+  color: white;
+}

@@ -1,0 +1,62 @@
+.imgCoder {
+  margin-bottom: 5%;
+  transition: all 1s;
+}
+.imgCoder:hover {
+  transform: scale(1.2);
+}
+.subtitle {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  animation: fadein 5s infinite linear;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translatey(-20px);
+  }
+  50% {
+    opacity: 1;
+    transform: translatey(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translatey(20px);
+  }
+}
+.info {
+  margin-top: 5%;
+  color: white;
+}
+.iconsCont {
+  display: flex;
+}
+.icons {
+  width: 80px;
+  margin: 10px;
+}
+.fa-square-js {
+  color: yellow;
+}
+.fa-html5 {
+  color: red;
+}
+.fa-css3-alt {
+  color: cadetblue;
+}
+.fa-react {
+  color: rgb(69, 138, 234);
+}
+.btn-outline-info {
+  margin-left: 15%;
+}
+.degree {
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 706px) {
+  .imgCoder {
+    width: 50%;
+  }
+}

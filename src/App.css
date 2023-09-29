@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+/* 
+Fonts: 
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+*/
+
+/* 
+Colors: 
+#09090A
+#353535
+#626262
+#939394
+#C8C8C8
+*/
+
+.body {
+  display: flex;
+  flex-direction: row;
+  background-color: #333231;
+  padding: 0;
+}
+
+.contenido {
+  background-color: #09090a;
+}
+
+html {
+  background-color: #09090a;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.categoryTitle {
+  color: white;
+  margin: auto;
+  margin-bottom: 3%;
+  color: white;
+  text-align: center;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 600;
+  font-size: 300%;
+}
+.categoryContainer {
+  background-color: #09090a;
+  margin: 5%;
+  height: 100%;
+}
+
+.Text {
+  font-size: 150%;
+  color: white;
+}

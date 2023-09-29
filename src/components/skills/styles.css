@@ -1,0 +1,70 @@
+.cont{
+    margin-top: 5%;
+}
+.skillTittle{
+    color: white;
+}
+.badge {
+  color: black;
+  font-size: 150%;
+  padding: 5px;
+  border-radius: 2px;
+  margin: 1%;
+  font-weight: 500;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.js {
+  background-color: yellow;
+}
+.jsw {
+  color: black;
+}
+
+.html {
+  background-color: red;
+}
+.htmlw {
+  color: black;
+}
+
+.css {
+  background-color: rgb(4, 161, 223);
+}
+.cssw {
+  color: black;
+}
+
+.bootsrap {
+  background-color: blueviolet;
+}
+
+.react {
+  background-color: rgb(27, 174, 242);
+}
+.rw{
+    color: black;
+}
+.formik{
+    background-color: #0051CD;
+}
+
+.github {
+  background-color: rgb(255, 255, 255);
+}
+.git {
+  background-color: orange;
+}
+
+.google {
+  background-color: green;
+}
+.vsc {
+  background-color: rgb(5, 130, 255);
+}
+.mui {
+  background-color: aqua;
+}
+.Icon{
+    height: 90%;
+    width: 12%;
+}

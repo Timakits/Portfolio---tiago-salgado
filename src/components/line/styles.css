@@ -1,0 +1,10 @@
+.line {
+  height: 15px;
+  background: rgb(9, 9, 10);
+  background: linear-gradient(
+    180deg,
+    rgba(9, 9, 10, 1) 24%,
+    rgba(30, 31, 46, 1) 51%,
+    rgba(9, 9, 10, 1) 89%
+  );
+}

@@ -1,0 +1,46 @@
+.contenedor {
+  height: 90vh;
+  max-width: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 70%,
+      #09090a 100%
+    ),
+    url(../../assets/Img/banner.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.startitle{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+  color: white;
+}
+
+.flecha{
+  text-align: center;
+  font-size: 200%;
+  color: white;
+  animation-name: señalar ;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+
+@keyframes señalar {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(0);
+  }
+}

@@ -9,6 +9,7 @@
     height: 5%;
     width: 2%;
     text-align: center;
+    z-index: 1000;
 }
 .fa-caret-up{
     color: white;
@@ -21,4 +22,19 @@
     display: none;
 }
 
+@media (min-width: 320px) {
+    #upButton {
+      width: 10%;
+    }
+  }
+@media (min-width: 700px) {
+    #upButton {
+      width: 5%;
+    }
+  }
+@media (min-width: 1470px){
+    #upButton {
+      width: 2%;
+    }
+  }
 

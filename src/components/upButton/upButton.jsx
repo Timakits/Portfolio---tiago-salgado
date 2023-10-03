@@ -11,11 +11,11 @@ const UpButton = () => {
     }
   });
   return (
-    <div className="hidden" id="upButton">
       <a href="#" style={{ textDecoration: "none" }}>
+    <div className="hidden" id="upButton">
         <i className="fa-solid fa-caret-up"></i>
-      </a>
     </div>
+      </a>
   );
 };
 

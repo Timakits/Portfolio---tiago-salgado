@@ -48,7 +48,7 @@ const Portfolio = () => {
                   This one is the second project and it's about a web that make
                   maths operations for calculate from a currency to another.
                 </p>
-                <a href="#" target="blank" className="btn btn-dark">
+                <a href="https://currencyconversion.com.ar/" target="blank" className="btn btn-dark">
                   WebSite
                 </a>
                 <a
@@ -75,7 +75,7 @@ const Portfolio = () => {
                   Third project about a e-commerce of glasses. This one was made
                   with react so it's a combination of html,css and Js
                 </p>
-                <a href="#" target="blank" className="btn btn-dark">
+                <a href="https://visualcheck.com.ar/" target="blank" className="btn btn-dark">
                   WebSite
                 </a>
                 <a
